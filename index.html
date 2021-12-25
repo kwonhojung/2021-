@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>2017101221 권호정</title>
+
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#" class="logo"><img src="./images/스크린샷 2021-12-21 오후 3.25.42.png" alt="logo"></a>
+      <ul>
+        <li><a href="javascript:()" onclick="showpopup();">구독</a></li>
+        <li><a href="/pages/sub01.html">디지털성범죄</a></li>
+        <li><a href="/pages/sub02.html">피해대처방안</a></li>
+      </ul>
+      </nav>
+  </header>
+  <section>
+    <div class="intro">
+      <div class="intro_section01">
+        <h1 class="title">디지털성범죄 <br>피해자지원센터</h1>
+        <h4 class="sub_title">불법 동영상 촬영 및 유포는 범죄입니다.<br>"절대 피해자의 잘못이 아닙니다"</h4>
+        <a class="cta" href="https://kcc.go.kr/user.do?page=A09010900&dc=K09010900" target="_blank">요청기관</a>
+      </div>
+    </div>
+    <div class="intro_section02">
+        <img src="./images/bulb.png" alt="main_icon01">
+        <h2 class="sub_title">디지털성범죄 피해자 지원센터는</h2>
+        <h4 class="dsc">디지털 성범죄 피해에 대한</br>
+        접수 등 상담, 삭제지원 및 유포 현황 모니터링,</br>
+        수사, 법률, 의료 연계 지원을 제공합니다.</h4>
+        <a class="cta" href="https://www.stop.or.kr/modedg/contentsView.do?ucont_id=CTX000068&srch_menu_nix=5hpWUOqC&srch_mu_site=CDIDX00005" target="_blank">정보알기</a>
+    </div>
+    <div class="v_section01">
+       <img src="./images/편지아이콘.png" alt="디지털성범죄">
+       <div class="influenza">
+          <h2 class="title">디지털성범죄</h2>
+          <p class="question">디지털성범죄란?</p>
+          <p class="dsc">디지털 성범죄는</br>디지털 기기 및 정보통신 기술을 매개로</br>  온,오프라인 상에서 발생하는 성범죄를 가리킵니다.</p>
+          <p class="question">디지털 그루밍이란?</p>
+          <p class="dsc">온라인 채팅, 모바일 메신저,SNS를 통해</br>청소년에게 접근하여 피해자를 유인하고 길들여,</br>성 착취 행위를 용이하게 하고 </br>피해 폭로를 막는 행위를 뜻합니다.</p>
+  
+       </div>  
+    </div>
+    <div class="v_section02">  
+       <div class="typhoid">
+          <h2 class="title">지원기관번호</h2>
+          <p class="question">한국여성인권진흥원 디지털성범죄피해자지원센터</br>02)735-8994</p>
+          <p class="dsc">한국사이버성폭력대응센터 피해자지원부</br>
+            02)817-7959</p>
+          <p class="question">한국성폭력상담소</br>02)338-5801</p>
+          <p class="dsc">십대여성인권센터</br>
+            010-3232-1318/010-7705-1318(카카오톡:cybersatto, seoulcenter1318)</br></p>
+          <p class="dsc">긴급전화</br>1366(24시간 상담가능)/(국번없이)1366 또는 특정 지역 1366센터 상담 요청 시, 해당지역 "지역번호+1366"</p>
+
+        </div>
+        <img src="./images/보안 아이콘.png" alt="번호"> 
+    </div>
+    <div class="v_section03">
+      <img src="./images/loupe.png" alt="신고방법">
+      <div class="tetanus">
+        <h2 class="title">신고방법</h2>
+        <p class="question">디지털성범죄물 신고방법은?</p>
+        <p class="dsc">1. 방통위 고시/지정기관 요청방법</br>2. 피해자 및 대리인이 직접 삭제요청서 제출</p>
+
+      </div>
+    </div>
+  </section>
+<footer>
+  Made by Dahye Lee from Web Media Design Class, 2021
+</footer>
+
+<!-- begin popup -->
+
+<div class="popup" id="popup">
+  <div class="blanket"></div>
+  <div class="content">
+    <h2>당신의 이야기를 들려주세요.</h2>
+    <form action="">
+      <div class="row">
+        <div class="item">
+          <input type="text" placeholder="이름">
+        </div>  
+        <div class="item">  
+          <input type="text" placeholder="이메일 주소 입력">
+        </div>
+      </div>
+      <button class="signup" onclick="hidePopup();">구독하기</button>
+      <button class="close" onclick="hidePopup();"></button>  
+    </form>
+ 
+  </div>
+</div>
+
+<script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
